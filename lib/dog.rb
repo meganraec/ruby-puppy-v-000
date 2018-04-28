@@ -7,11 +7,11 @@ class Dog
     @@all << self
   end
 
-  def clear_all
-    self.clear
+  def self.clear_all
+    @@all.clear
   end
 
-  def all
+  def self.all
     self.each {|puppy| puts puppy}
   end
 
