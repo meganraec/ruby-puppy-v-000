@@ -8,7 +8,7 @@ class Dog
   end
 
   def clear_all
-    self.each {|x| x.clear}
+    self.clear
   end
 
   def all
